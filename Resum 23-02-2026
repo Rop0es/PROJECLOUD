@@ -18,3 +18,5 @@ Emmagatzematge al Núvol: Hem iniciat la fase d'anàlisi comparativa entre OwnCl
 Enfortiment del Sistema: S'ha començat a investigar i aplicar mesures addicionals de seguretat per protegir la infraestructura davant possibles vulnerabilitats.
 
 Restricció d'Accés a la Terminal: Com a mesura de seguretat crítica, hem implementat una configuració per limitar l'accés a la shell (terminal). Això garanteix que certs usuaris només puguin utilitzar els serveis necessaris sense tenir permisos per executar ordres directes en el sistema operatiu de les màquines virtuals.
+
+Creació del PHP y Mariadb simple
