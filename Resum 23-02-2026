@@ -10,7 +10,7 @@ Xarxes Virtuals (VPN): * Hem establert connexions segures mitjançant WireGuard.
 
 S'ha aconseguit l'accés a les màquines virtuals a través de VPN RDP, garantint un túnel segur per a la gestió remota. (Ha fet falta xrdp)
 
-Comunicació entre Nodes: S'ha validat la connectivitat interna (pings) entre les diferents màquines virtuals, utilitzant principalment Tailscale per facilitar la malla de xarxa (mesh network).
+Comunicació entre Nodes: S'ha validat la connectivitat interna (pings) entre les diferents màquines virtuals, utilitzant principalment Headscale per facilitar la malla de xarxa (mesh network).
 
 3. Serveis de Fitxers i Seguretat
 Emmagatzematge al Núvol: Hem iniciat la fase d'anàlisi comparativa entre OwnCloud i NextCloud per determinar quina solució s'adapta millor a les necessitats d'implementació del nostre projecte.
