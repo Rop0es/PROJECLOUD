@@ -46,4 +46,3 @@ La seguridad no es un extra, es nuestra prioridad.
 ---
 
 ## 🛠️ Instalación / Despliegue (Próximamente)
-*Instrucciones detalladas sobre cómo configurar el entorno Debian, Wireguard e Isard VDI.*
