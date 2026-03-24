@@ -1,0 +1,10 @@
+Hem començat a fer servir ZeroTier per tal de tenir connectivitat entre màquines mentres utilitzem Wireguard, això es un avanç, 
+ja que posteriorment només ens podiem conectar via rdp (mitjatçant Xrdp a debian), ja que al utilitzar la eina Wireguard no arribaven els pings.
+Vam tenir l'idea d'utilitzar Tailscale per tal de mantenir la connectivitat, pero ens vam topar amb el problema de que a IsardVDI no estaba disponible 
+(no es podia accedir a la pàgina ni descarregar res relacionat).
+Desprès vam pensar en utilitzar Headscale, que no va funcionar perque depenia de Tailscale per tal de funcionar i per últim vam buscar info de Netbird.
+Però al final ens hem quedat amb ZeroTier, l'hem pogut instal·lar ràpid a diferents màquines virtuals, i això vol dir que ja ens podem comunicar amb el server
+sense problemes. 
+La configuració és extremadament senzilla, ja que al instal·lar a Debian amb "curl -s https://install.zerotier.com | sudo bash"
+Després creem una xarxa amb un codi, i per últim a la terminal a on tinguem ZeroTier i posem "zerotier-cli join [id xarxa]"
+Una vegada fet, tenim conectada una màquina a la xarxa. Una vegada tinguem múltiples maquines, ja es podran veure.
