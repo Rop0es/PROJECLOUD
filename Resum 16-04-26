@@ -1,0 +1,22 @@
+## Progrés del projecte
+
+Durant aquesta fase del projecte, hem avançat en diversos fronts de manera simultània i coordinada.
+
+En primer lloc, hem continuat desenvolupant la memòria escrita seguint un ordre i una estructura clars,
+amb l'objectiu de facilitar la seva posterior adaptació a l'estructura oficial del centre quan aquesta
+estigui disponible. Hem posat especial atenció a la redacció, assegurant-nos que el text estigui lliure
+de faltes d'ortografia i que cada apartat contingui la informació necessària i rellevant, sense afegir
+contingut superflu ni ometre res important.
+
+Pel que fa a la infraestructura de xarxa, hem configurat i posat en marxa una xarxa ZeroTier de manera
+provisional, que permet als usuaris autoritzats connectar-se al servei de forma remota i segura.
+Actualment, el servei és accessible a través de la IP `10.75.139.37`, i l'únic requisit per connectar-s'hi
+és tenir ZeroTier instal·lat al sistema operatiu i que el dispositiu en qüestió estigui donat d'alta a la
+nostra xarxa. Tot i que aquesta solució és funcional i cobrix les necessitats actuals, som conscients que
+no és la definitiva. En un futur no molt llunyà, tenim previst migrar la connexió a un túnel de Cloudflare,
+la qual cosa ens permetrà millorar tant la seguretat com el rendiment i la gestió del tràfic.
+
+Finalment, hem atès la comunicació amb el client potencial Samuel Sparck, amb qui hem aclarit aspectes
+importants sobre la forma de presentar el nostre servei. En concret, hem definit amb més precisió com
+exposar les característiques del servei i els seus plans de subscripció disponibles, de manera que la
+proposta sigui clara, atractiva i fàcil d'entendre per a qualsevol interlocutor.
