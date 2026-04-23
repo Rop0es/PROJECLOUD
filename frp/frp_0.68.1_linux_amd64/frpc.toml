@@ -1,0 +1,10 @@
+serverAddr = "82.70.78.70"
+serverPort = 7000
+auth.token = "6003bb811da576e120cd28a40fde0d096ad7920b0455be9c5c1d64f8a4f4aac2"
+
+[[proxies]]
+name = "web"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 80          # ← port your local web server listens on
+customDomains = ["cloud.projecloud.cat"]
