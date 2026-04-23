@@ -1,0 +1,34 @@
+Resum de la conversa entre ProjeCloud i Samuel Sparck
+Entre el 7 i el 23 d'abril de 2026 vam mantenir una conversa amb Samuel Sparck,
+que es va presentar com a CTO d'una empresa (més endavant vam detectar que la
+referència a "UnClick" era un error). Ens va sol·licitar una prova del servei
+de ProjeCloud, mostrant especial interès pels plans de preus, les mesures de
+seguretat i l'escalabilitat de la solució.
+
+Després d'una primera resposta on vam facilitar l'enllaç a les tarifes i vam
+explicar les mesures de seguretat implementades (2FA, túnel WireGuard, rate
+limiting i ZeroTier amb GPG), vam proporcionar a Samuel Sparck les instruccions
+per accedir a l'entorn de prova. Això incloïa la descàrrega de ZeroTier, l'ordre
+per unir-se a la nostra xarxa virtual amb l'identificador 88c5b1f3395d005d,
+l'adreça IP temporal 10.75.139.238 accessible només en franges horàries
+concretes (dilluns, dimarts i dijous de 15:30 a 17:00), i les credencials
+d'usuari sparck amb contrasenya asdqwe123sparck.
+
+Quan Samuel va demanar una demostració en directe, vam optar per gravar un
+vídeo demostratiu de les funcionalitats bàsiques per donar-li flexibilitat
+horària. Més endavant, va aconseguir accedir a la plataforma i va verificar que
+les operacions bàsiques funcionaven correctament. A partir d'aquí, va sol·licitar
+accés a les API de Nextcloud per fer proves d'integració programàtica.
+
+En resposta a aquesta sol·licitud, vam proporcionar a Samuel Sparck la
+documentació completa de l'API WebDAV, que incloïa un llistat XML detallat del
+directori amb informació de fitxers, carpetes, dates de modificació, grandàries
+i tipus de contingut. També vam facilitar l'API OCS amb les dades de l'usuari i
+vam incloure un exemple pràctic d'ús amb curl per descarregar fitxers.
+
+Finalment, Samuel Sparck ens va confirmar que havia pogut realitzar totes les
+proves necessàries amb èxit, incloent l'accés via ZeroTier, la gestió de
+fitxers amb WebDAV, la consulta d'informació d'usuari via OCS API i la creació
+de comparticions. Va quedar molt satisfet i va declarar que la nostra plataforma
+cobria perfectament les seves necessitats d'integració, agraint la dedicació i
+el suport rebut durant tot el procés de prova.
