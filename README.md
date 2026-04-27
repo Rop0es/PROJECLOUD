@@ -42,7 +42,3 @@ La seguridad no es un extra, es nuestra prioridad.
 | **Privacidad** | Discos virtuales dedicados por usuario/máquina. |
 | **Disponibilidad** | Sincronización constante para evitar pérdida de información. |
 | **Simplicidad** | Gestión de usuarios automatizada desde la infraestructura. |
-
----
-
-## 🛠️ Instalación / Despliegue (Próximamente)
